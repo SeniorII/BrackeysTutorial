@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1631885717",
+        "python_version": "3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Python39\\Scripts\\mlagents-learn --run-id=hi00",
+        "mlagents_version": "0.25.0",
+        "mlagents_envs_version": "0.25.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cpu",
+        "numpy_version": "1.21.0",
+        "end_time_seconds": "1631885777"
+    },
+    "total": 60.87066960000001,
+    "count": 1,
+    "self": 0.0033432000000104267,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08099699999999999,
+            "count": 1,
+            "self": 0.08099699999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 60.7863294,
+            "count": 1,
+            "self": 0.0001257999999992876,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 60.7860559,
+                    "count": 1,
+                    "self": 60.7860559
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00014769999999941774,
+                    "count": 1,
+                    "self": 0.00014769999999941774
+                }
+            }
+        }
+    }
+}
